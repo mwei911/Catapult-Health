@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="udemy_test_case.ExcelDriver"/>
+      <class name="utilities.Resources"/>
+      <class name="base_class.Base_class"/>
+      <class name="udemy_test_case.Jira_testing"/>
+      <class name="udemy_test_case.Get_example"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
